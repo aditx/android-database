@@ -1,7 +1,7 @@
 <?php
 	$host='localhost';
-	$uname='root';
-	$pwd='adm13';
+	$uname='dev';
+	$pwd='dev';
 	$db="ex1";
 
 	$con = mysql_connect($host,$uname,$pwd) or die("connection failed");
