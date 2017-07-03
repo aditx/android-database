@@ -9,10 +9,7 @@
 
 	$result = mysql_query("SELECT * FROM t1", $con);
 
-  $rows = array();
-
-  while ($row = mysql_fetch_array($result)) {
-    # code...
+  while ($row = mysql_fetch_assoc($result)) {
     $rows[] = $row;
   }
 
